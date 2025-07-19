@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>7. Un vuelo colectivo - Paute Vuela Alto</title>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;600&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="estilos.css" />
+</head>
+
+<body>
+
+    <header>
+        <div class="header-container">
+            <h1>Paute Vuela Alto: Deporte Extremo y Desarrollo Local</h1>
+            <button class="menu-toggle" aria-label="Abrir menú">&#9776;</button>
+        </div>
+        <nav class="menu">
+            <a href="index.html">Inicio</a>
+            <a href="https://michelalexis30.github.io/Paute/numeral1.html">1. Los primeros pasos</a>
+            <a href="https://michelalexis30.github.io/Paute/numeral2.html">2. Los primeros vuelos</a>
+            <a href="https://michelalexis30.github.io/Paute/numeral3.html">3. Consolidación y evolución</a>
+            <a href="https://michelalexis30.github.io/Paute/numeral4.html">4. Representación Mundial</a>
+            <a href="https://michelalexis30.github.io/Paute/numeral5.html">5. Más allá del deporte</a>
+            <a href="https://michelalexis30.github.io/Paute/numeral6.html">6. Paute, tierra de deportes extremos</a>
+            <a href="https://michelalexis30.github.io/Paute/numeral7.html">7. Un vuelo colectivo</a>
+        </nav>
+    </header>
+
+    <section class="seccion especial">
+        <div class="contenedor-flex">
+            <div class="texto">
+                <h2>7. Un vuelo colectivo</h2>
+                <h3>Volar con respeto: la naturaleza manda</h3>
+
+                <p>
+                    Pero como todo deporte extremo, el parapente exige respeto. La adrenalina debe ir acompañada de
+                    juicio y prudencia.
+                </p>
+
+                <blockquote>
+                    “Ha habido accidentes, incluso mortales. A veces por imprudencia. Hay que saber esperar, si el día
+                    está nublado, no se vuela. La montaña siempre está ahí”.<br />
+                    <strong>- Pablo Rodas</strong>
+                </blockquote>
+
+                <p>
+                    El viento, la niebla y la montaña no se dominan. Se respetan. Solo así, el vuelo se mantiene como un
+                    acto de armonía, no de desafío. A pesar de ello, Galo Valencia, piloto de parapente, cuenta cómo
+                    este deporte extremo se ha convertido en un estilo de vida para él.
+                </p>
+            </div>
+
+            <div class="media">
+                <iframe src="https://drive.google.com/file/d/1A44IfgHn9oqJdcg-G4QA3QyJCCcizhY-/preview"
+                    class="horizontal" allow="autoplay" loading="lazy" title="Video parapente en Paute">
+                </iframe>
+            </div>
+        </div>
+
+        <div class="texto-final">
+            <p>
+                El parapente en Paute no es solo una historia de altura. Es una historia de unión, de pasión, de
+                redescubrimiento. Es la muestra de que un pueblo puede volar, no con aviones, sino con ganas, con
+                comunidad, con respeto a su tierra.
+            </p>
+            <p><strong>Porque Paute no solo vuela. Inspira a volar.</strong></p>
+        </div>
+    </section>
+
+    <script>
+        const toggle = document.querySelector('.menu-toggle');
+        const menu = document.querySelector('.menu');
+        toggle.addEventListener('click', () => {
+            menu.classList.toggle('open');
+        });
+    </script>
+    <div class="content-block">
+        <h2>Deja tu comentario</h2>
+        <form class="contact-form" action="#" method="post">
+            <label for="opinion">Escribe tu opinión aquí...</label>
+            <textarea id="opinion" name="opinion" rows="5" placeholder="Tu opinión..." required></textarea>
+
+            <button type="submit" class="btn-submit">Enviar</button>
+        </form>
+
+        <section class="contact-author">
+            <h3>Contacto con el autor</h3>
+            <p>¿Tienes comentarios, sugerencias o quieres saber más sobre este reportaje?</p>
+            <p>Envia tu mensaje a: <a href="mailto:michael.molina@ucuenca.edu.ec">michael.molina@ucuenca.edu.ec</a></p>
+
+        </section>
+    </div>
+    <div class="page-navigation">
+        <a href="https://michelalexis30.github.io/Paute/numeral6.html" class="nav-button">
+            ← Anterior
+        </a>
+    </div>
+</body>
+<footer class="site-footer">
+    <p>Reportaje realizado por Michael Molina - © 2025</p>
+</footer>
+
+</html>
