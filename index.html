@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Paute Vuela Alto</title>
+  <link rel="stylesheet" href="estilos.css" />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400&display=swap" rel="stylesheet">
+</head>
+
+<body>
+
+  <header>
+    <div class="header-container">
+      <h1>Paute Vuela Alto: Deporte Extremo y Desarrollo Local</h1>
+      <button class="menu-toggle" aria-label="Abrir menú">&#9776;</button>
+    </div>
+    <nav class="menu">
+      <a href="index.html">Inicio</a>
+      <a href="https://michelalexis30.github.io/Paute/numeral1.html">1. Los primeros pasos</a>
+      <a href="https://michelalexis30.github.io/Paute/numeral2.html">2. Los primeros vuelos</a>
+      <a href="https://michelalexis30.github.io/Paute/numeral3.html">3. Consolidación y evolución</a>
+      <a href="https://michelalexis30.github.io/Paute/numeral4.html">4. Representación Mundial</a>
+      <a href="https://michelalexis30.github.io/Paute/numeral5.html">5. Más allá del deporte</a>
+      <a href="https://michelalexis30.github.io/Paute/numeral6.html">6. Paute, tierra de deportes extremos</a>
+      <a href="https://michelalexis30.github.io/Paute/numeral7.html">7. Un vuelo colectivo</a>
+    </nav>
+  </header>
+
+  <main>
+    <section class="hero">
+      <iframe src="https://drive.google.com/file/d/1s2baF1ny5-vJ-sKtdNgxFrefWMQ7oiFk/preview" allow="autoplay"
+        class="video" title="Video principal"></iframe>
+    </section>
+
+    <section class="descripcion">
+      <p>
+        En el corazón del Azuay, entre colinas verdes, brisas cruzadas y cielos abiertos, Paute ha encontrado una forma
+        única de contarse: desde el aire.
+        El parapente no es solo un deporte de aventura en esta tierra; es una experiencia de conexión con el paisaje,
+        una historia de comunidad,
+        y una vía para impulsar el turismo, el desarrollo local y la identidad. Pero todo comenzó con unos cuantos
+        caminantes curiosos, con botas gastadas y los ojos puestos en la cumbre.
+      </p>
+    </section>
+  </main>
+
+  <script>
+    const toggle = document.querySelector('.menu-toggle');
+    const menu = document.querySelector('.menu');
+    toggle.addEventListener('click', () => {
+      menu.classList.toggle('open');
+    });
+  </script>
+
+  <div class="content-block">
+    <h2>Deja tu comentario</h2>
+    <form class="contact-form" action="#" method="post">
+      <label for="opinion">Escribe tu opinión aquí...</label>
+      <textarea id="opinion" name="opinion" rows="5" placeholder="Tu opinión..." required></textarea>
+
+      <button type="submit" class="btn-submit">Enviar</button>
+    </form>
+
+    <section class="contact-author">
+      <h3>Contacto con el autor</h3>
+      <p>¿Tienes comentarios, sugerencias o quieres saber más sobre este reportaje?</p>
+      <p>Envia tu mensaje a: <li>
+          <a href="mailto:michael.molina@ucuenca.edu.ec">michael.molina@ucuenca.edu.ec</a>
+        </li>
+        <li>
+          <a href="darwin.cobosj@ucuenca.edu.ec">darwin.cobosj@ucuenca.edu.ec</a>
+        </li>
+      </p>
+
+    </section>
+  </div>
+  <div class="page-navigation">
+    <a href="https://michelalexis30.github.io/Paute/numeral1.html" class="nav-button">
+      Siguiente →
+    </a>
+  </div>
+
+
+</body>
+
+<footer class="site-footer">
+  <p>Reportaje realizado por Michael Molina - Darwin Cobos © 2025</p>
+</footer>
+
+</html>
