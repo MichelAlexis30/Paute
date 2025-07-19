@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>1. Los primeros pasos - Paute Vuela Alto</title>
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;600&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="estilos.css" />
+</head>
+
+<body>
+
+  <header>
+    <div class="header-container">
+      <h1>Paute Vuela Alto: Deporte Extremo y Desarrollo Local</h1>
+      <button class="menu-toggle" aria-label="Abrir menú">&#9776;</button>
+    </div>
+    <nav class="menu">
+      <a href="index.html">Inicio</a>
+      <a href="https://justinlucero07.github.io/paute/numeral1.html">1. Los primeros pasos</a>
+      <a href="https://justinlucero07.github.io/paute/numeral2.html">2. Los primeros vuelos</a>
+      <a href="https://justinlucero07.github.io/paute/numeral3.html">3. Consolidación y evolución</a>
+      <a href="https://justinlucero07.github.io/paute/numeral4.html">4. Representación Mundial</a>
+      <a href="https://justinlucero07.github.io/paute/numeral5.html">5. Más allá del deporte</a>
+      <a href="https://justinlucero07.github.io/paute/numeral6.html">6. Paute, tierra de deportes extremos</a>
+      <a href="https://justinlucero07.github.io/paute/numeral7.html">7. Un vuelo colectivo</a>
+    </nav>
+  </header>
+
+  <section class="content-block">
+    <h2>1. Los primeros pasos: Del cerro al viento</h2>
+
+    <div class="content-row">
+      <div class="text">
+        <p>
+          Pablo Rodas León, uno de los pioneros del parapente en Paute, recuerda los años en los que todo se limitaba a
+          caminar:
+        </p>
+        <blockquote>
+          “Comenzamos con senderismo, andinismo, montañismo… nos gustaba subir cerros. Poco a poco fuimos ganando
+          experiencia”.
+        </blockquote>
+        <p>
+          Esa pasión por las montañas los llevó al Tungurahua, los Ilinizas, incluso al imponente Chimborazo. El rumbo
+          cambió cuando Rodas fue con Luis Villavicencio, un amigo suyo, al volcán Cayambe, pues allí conocieron al
+          alemán Eduard Meyers, campeón nacional de “Ala delta”, con el hicieron una amistad y por el año 1989
+          experimentaban por primera vez con el parapente en el Ecuador.
+        </p>
+        <p>
+          Una semana después fueron al gran Chimborazo, pues era desde este volcán de donde el alemán quería hacer su
+          vuelo. Hicieron un grupo de personas conformadas por Daniel Calderón, Julio Vintimilla, Pablo Llamzahuano y lo
+          acompañaron.
+        </p>
+      </div>
+
+      <div class="media6 fullwidth-audio6">
+        <iframe src="audios/audio1.mp3" allow="autoplay" loading="lazy" title="Audio 1"></iframe>
+      </div>
+    </div>
+
+    <blockquote class="highlighted-quote">
+      “Lo ayudamos a aplanar la nieve para que corra. Verlo lanzarse desde más de 6.000 metros fue algo que nunca
+      olvidaremos”.<br />
+      <strong>- Pablo Rodas</strong>
+    </blockquote>
+
+    <p>
+      Ese salto no solo lo dio Eduard. Lo dio también la idea. Desde entonces, el cielo se convirtió en posibilidad.
+    </p>
+
+    <div class="content-row reverse">
+      <div class="media">
+        <iframe src="https://drive.google.com/file/d/1qqGj74O3oMLtqt_IU3BX1vcvGlmCPX89/preview" class="horizontal1"
+          allow="autoplay" loading="lazy" title="Foto 1"></iframe>
+        <div class="caption">Foto física escaneada de un aterrizaje de parapente en los inicios.</div>
+      </div>
+    </div>
+  </section>
+
+  <script>
+    const toggle = document.querySelector('.menu-toggle');
+    const menu = document.querySelector('.menu');
+    toggle.addEventListener('click', () => {
+      menu.classList.toggle('open');
+    });
+  </script>
+  <div class="content-block">
+    <h2>Deja tu comentario</h2>
+    <form class="contact-form" action="#" method="post">
+      <label for="opinion">Escribe tu opinión aquí...</label>
+      <textarea id="opinion" name="opinion" rows="5" placeholder="Tu opinión..." required></textarea>
+
+      <button type="submit" class="btn-submit">Enviar</button>
+    </form>
+
+    <section class="contact-author">
+      <h3>Contacto con el autor</h3>
+      <p>¿Tienes comentarios, sugerencias o quieres saber más sobre este reportaje?</p>
+      <p>Envia tu mensaje a: <a href="mailto:michael.molina@ucuenca.edu.ec">michael.molina@ucuenca.edu.ec</a></p>
+
+    </section>
+  </div>
+  <div class="page-navigation">
+    <a href="pagina-anterior.html" class="nav-button">
+      ← Anterior
+    </a>
+    <a href="pagina-siguiente.html" class="nav-button">
+      Siguiente →
+    </a>
+  </div>
+</body>
+<footer class="site-footer">
+  <p>Reportaje realizado por Michael Molina - © 2025</p>
+</footer>
+
+</html>
